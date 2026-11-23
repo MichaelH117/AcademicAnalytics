@@ -38,7 +38,7 @@ public class AnalyticsEngine {
                 avgGpa, avgAttendance, passRate, gradeDist, avgByType);
     }
 
-    public Map<String, Double> gpaGrends(List<Student> students, String course,
+    public Map<String, Double> gpaTrends(List<Student> students, String course,
                                          List<String> semesterOrder) {
         Map<String, Double> trend = new LinkedHashMap<>();
         for (String sem : semesterOrder) {

@@ -54,7 +54,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return String.format("[%s] %s | %s | GPA: %.2f | Att: %d%% | Grade: %s",
+        return String.format("[%s] %s | %s | GPA: %.2f | Att: %d%% | Assignments: %s",
                 studentId, name, course, gpa, attendancePercent, getLetterGrade());
     }
 }

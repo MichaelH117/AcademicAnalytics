@@ -25,7 +25,7 @@ public class Main {
 
         List<String> semesterOrder = List.of(
                 "Fall 2024", "Spring 2025", "Fall 2025", "Spring 2026");
-        Map<String, Double> trend = engine.gpaGrends(students, "CS 101", semesterOrder);
+        Map<String, Double> trend = engine.gpaTrends(students, "CS 101", semesterOrder);
         System.out.println("GPA Trend - CS 101:");
         trend.forEach((sem, gpa) ->
                 System.out.printf("  %-15s  %.2f%n", sem, gpa));
